@@ -33,6 +33,19 @@ Academic Year 2025-2026
 - **Python Packages:** flet==0.28.3
 - **Platform:** Windows 10/11
 
+## Results
+The Week 1 and Week 2 programs are marked completed in their lab reports, and each of the 5 added features in the Module 6 weather app has a screen recording.
+
+| Lab | Result | Evidence |
+|---|---|---|
+| Week 1 | `hello_world.py` runs on Python 3.12.0. `basic_calculator.py` prints "Cannot divide by zero" for 1.0 / 0.0 and rejects text input. | [LAB1_REPORT.md](week1_labs/LAB1_REPORT.md), [screenshots](week1_labs/lab1_screenshots/) |
+| Week 2 | `hello_flet.py` and `personal_info_gui.py` work. The form generates a student profile. | [LAB2_REPORT.md](week2_labs/LAB2_REPORT.md), [screenshots](week2_labs/lab2_screenshots/) |
+| Module 6 | All 6 base features are checked off. Each of the 5 added features (search history, current location, 5-day forecast, offline cache, watchlist) has a screen recording. | [mod6_labs/README.md](mod6_labs/README.md), [recordings](mod6_labs/assets/gifs/) |
+
+To test the weather service, add an OpenWeatherMap key to `mod6_labs/.env` (template in `.env.example`) and run `python test_weather_service.py` from `mod6_labs/`. It checks a valid city (London), an invalid city and an empty city name.
+
+Week 3 (login app), Week 4 (contact book) and the sample APK build have code only, with no screenshots or lab reports.
+
 ## How to Run Applications
 
 ### Prerequisites
